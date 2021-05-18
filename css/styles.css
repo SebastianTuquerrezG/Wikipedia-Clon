@@ -1,5 +1,84 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
 header .title
 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-family : 'Open Sans';
     text-align: center;
+}
+
+header .subtitle
+{
+    font-size: 20px;
+    font-family : 'Open Sans';
+    text-align: center;
+}
+
+header .main-logo
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+header .main-logo img 
+{
+    height: 240px;
+    width: 300px;
+}
+
+header .main-logo button
+{
+    display: flex;
+    border: none;
+    width: 140px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+header .main-logo a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+header .main-logo button span
+{
+    color: black;
+}
+
+header .browse-main
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+header .browse
+{
+    margin-top: 100px;
+    width: 400px;
+    border: 1px solid #a2a9b1;
+    display: flex;
+    justify-content: center;
+}
+
+header .browse-main input
+{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    font-size: 20px;
+}
+header .browse:hover
+{
+    border-color: #72777d;
+    box-shadow: 3px darkgray;
 }
