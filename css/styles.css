@@ -1,3 +1,15 @@
+hr 
+{
+    clear: both;
+    height: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin: 0.26rem 1rem;
+}
+
+a
+{
+    text-decoration: none;
+}
 body
 {
     margin: 0;
@@ -81,4 +93,36 @@ header .browse:hover
 {
     border-color: #72777d;
     box-shadow: 3px darkgray;
+}
+
+.b1
+{
+    margin-left: 80px;
+}
+
+/*FOOTER*/
+p
+{
+    text-align: center;
+}
+footer a
+{
+    font-size: 17px;
+}
+footer small
+{
+    font-size: 17px;
+}
+footer .first_link-footer::after
+{
+    content: '\2022';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer .second_link-footer::after
+{
+    content: '\2022';
+    margin-left: 5px;
+    margin-right: 5px;
 }
